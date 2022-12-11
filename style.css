@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 25rem;
+  margin: 1rem auto ;
+  border: .1rem solid rgba(226, 226, 226, 0.21);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: rgba(60, 61, 61, 0.541);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1{
+  font-variant: small-caps;
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+}
+
+.container hr {
+  width: 20rem;
+  height: .1rem;
+  border-radius: 1rem;
+  margin: 0.7rem 0 0.62rem;
+  background: rgba(255, 255, 255, .1);
+}
+
+.labels {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: .2rem;
+  gap: .5rem;
+}
+
+select {
+  cursor: pointer;
+  padding: .4rem .6rem;
+  margin: .3rem 0 .2rem 0;
+  background: #bbbdbe36;
+  border: 0.1rem solid #d6d7d896;
+  border-radius: 0.3rem;
+  color: #d4d2d2;
+  font-weight: 700;
+}
+
+b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+p {
+  margin: .4rem;
+}
+
+.labels{
+  margin-top: 1.3rem ;
+}
+
+#input-real {
+  padding: .4rem;
+  margin: .3rem 0 .2rem 0;
+  background: #bbbdbe36;
+  border: 0.1rem solid #d6d7d896;
+  border-radius: 0.3rem;
+  color: #ffff;
+}
+
+#convert-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9dddf70;
+  border: .1rem solid #d6d7d896;
+  border-radius: .4rem;
+  width: 50%;
+  padding: .6rem 1rem;
+  margin: .5rem;
+  color: #fff;
+  transition: .4s;
+}
+
+#convert-button:hover {
+  background-color: #6d707052;
+}
+
+.currency-container {
+  margin: .5rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#currency-img,
+.currency-img-brazil {
+  height: 2.2rem;
+  margin: 0.3rem 0 0 0;
+}
